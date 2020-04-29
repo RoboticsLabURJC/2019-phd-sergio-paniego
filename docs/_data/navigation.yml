@@ -1,0 +1,26 @@
+# main links
+main:
+
+
+  - title: Installation
+    url: /install/
+
+  - title: Documentation
+    url: /documentation/
+
+# left side bar
+docs:
+  - title: Installation
+    children: 
+    - title: How to install
+      url: /install/
+
+  - title: Documentation
+    children:
+    - title: Requisites
+      url: //
+    - title: Install
+      url: //
+    - title: Usage
+      url: //
+  
