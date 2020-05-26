@@ -1,5 +1,5 @@
 ---
-title: "Ecuations"
+title: "Network models testing"
 excerpt: "The template has been set up to administer equations"
 
 sidebar:

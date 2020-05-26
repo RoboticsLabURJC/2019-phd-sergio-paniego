@@ -1,5 +1,5 @@
 ---
-title: "My first post"
+title: "PyTorch inferencer included"
 excerpt: "This is an example of my first post"
 
 sidebar:
