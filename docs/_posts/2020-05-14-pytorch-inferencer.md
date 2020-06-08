@@ -33,7 +33,7 @@ During this week, additional support for PyTorch in Detection Studio was given.
 
 ## Support in Detection Studio
 
-We gave support for PyTorch implementing a [python module](https://github.com/JdeRobot/DetectionStudio/blob/master/DeepLearningSuiteLib/python_modules/pytorch_detect.py) 
+We gave support for PyTorch implementing a [python module](https://github.com/JdeRobot/DetectionStudio/blob/master/DetectionStudio/DetectionStudioLib/python_modules/pytorch_detect.py) 
 that is connected to C++. Detection Studio is mainly implemented in C++, so it calls a python module.
 
 A configuration file is needed for giving support to PyTorch. This file is read by Detection Studio to understand 
