@@ -18,17 +18,16 @@ tags:
 - tag 3
 - tag 4
 
-author: Tony Stark
+author: Sergio Paniego
 pinned: false
 ---
 
+This week was dedicated to complete the experiments part in Detection Studio paper.
 
-## How do you use them?
+## Experiment explanation
 
-The equations admitted are those usually used in Latex and Markdown. Thanks to the mathjax library they are rendered.
+This experiment idea is to show how you can use Detection Studio to compare different object detection models
+and understand which one has a better performance. To do so, several object detection models implementing common approaches
+were used.
 
-$$
-\frac{-b\pm\sqrt{b^2-4ac}}{2a}
-$$
 
-Thanks to this library and the integration with Minimal Mistakes, the result of your documentation will look spectacular.
