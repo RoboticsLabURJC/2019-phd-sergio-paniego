@@ -18,23 +18,23 @@ tags:
 - tag 3
 - tag 4
 
-author: Tony Stark
+author: Sergio Paniego
 pinned: false
 ---
 
-Simple text to see the appearance and result of the documentation in a post.
+During this week, additional support for PyTorch in Detection Studio was given.
 
-## Title 1
+## PyTorch
 
-[Lorem ipsum](https://getlorem.com/es/) dolor sit amet consectetur adipiscing elit odio, ullamcorper orci torquent tristique habitasse interdum integer ridiculus, lectus pellentesque mus donec morbi sapien molestie. Libero platea vivamus tortor fringilla vel penatibus ut egestas, etiam aptent himenaeos magnis facilisi iaculis placerat. Congue fusce nisl torquent ridiculus eleifend diam vehicula egestas iaculis, erat purus eget facilisis metus neque ante suscipit scelerisque vel, commodo potenti lacinia etiam lectus nam facilisi ac.
+[PyTorch](https://arxiv.org/abs/1912.01703) is a deep learning [framework](https://pytorch.org/)
+
+[COMPLETE THIS PART]
 
 
-## Title 2
+## Support in Detection Studio
 
-Tempor montes aenean dis fusce viverra, parturient eros per torquent tristique pharetra, magnis enim vivamus inceptos. Aliquam malesuada fames parturient mauris congue cubilia fringilla dui, venenatis varius cursus class vitae magna sollicitudin, nulla euismod pretium feugiat nunc aliquet eleifend. Sollicitudin enim mus feugiat sociosqu lobortis ridiculus magnis tempus varius, habitasse cursus neque pulvinar iaculis molestie quam dis rutrum, tortor vel proin vehicula montes id leo turpis.
+We gave support for PyTorch implementing a [python module](https://github.com/JdeRobot/DetectionStudio/blob/master/DeepLearningSuiteLib/python_modules/pytorch_detect.py) 
+that is connected to C++. Detection Studio is mainly implemented in C++, so it calls a python module.
 
-- Lorem ipsum dolor sit amet consectetur adipiscing elit odio, ullamcorper orci torquent tristique habitasse interdum integer ridiculus, lectus pellentesque mus donec morbi sapien molestie. 
-- Libero platea vivamus tortor fringilla vel penatibus ut egestas, etiam aptent himenaeos magnis facilisi iaculis placerat.
-- Congue fusce nisl torquent ridiculus eleifend diam vehicula egestas iaculis, erat purus eget facilisis metus neque ante suscipit scelerisque vel, commodo potenti lacinia etiam lectus nam facilisi ac.
-- Tempor montes aenean dis fusce viverra, parturient eros per torquent tristique pharetra, magnis enim vivamus inceptos.
-- Aliquam malesuada fames parturient mauris congue cubilia fringilla dui, venenatis varius cursus class vitae magna sollicitudin, nulla euismod pretium feugiat nunc aliquet eleifend. Sollicitudin enim mus feugiat sociosqu lobortis ridiculus magnis tempus varius, habitasse cursus neque pulvinar iaculis molestie quam dis rutrum, tortor vel proin vehicula montes id leo turpis.
+A configuration file is needed for giving support to PyTorch. This file is read by Detection Studio to understand 
+where the model is and which model is. 
