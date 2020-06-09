@@ -22,13 +22,8 @@ author: Tony Stark
 pinned: false
 ---
 
+This week was dedicated to read papers and complete the state of the art part of the paper.
+Papers were related to a general review of object detection models and the most important
+model's papers
 
-## How do you use them?
-
-The equations admitted are those usually used in Latex and Markdown. Thanks to the mathjax library they are rendered.
-
-$$
-\frac{-b\pm\sqrt{b^2-4ac}}{2a}
-$$
-
-Thanks to this library and the integration with Minimal Mistakes, the result of your documentation will look spectacular.
+## Object detection model review

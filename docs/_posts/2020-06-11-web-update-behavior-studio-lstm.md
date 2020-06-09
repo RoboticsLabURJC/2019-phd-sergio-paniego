@@ -1,5 +1,5 @@
 ---
-title: "Paper writing, documentation update and RetinaNet reading"
+title: "Web update, Behavior Studio installation and LSTM"
 excerpt: "The template has been set up to administer equations"
 
 sidebar:
@@ -18,7 +18,7 @@ tags:
 - tag 3
 - tag 4
 
-author: Tony Stark
+author: Sergio Paniego
 pinned: false
 ---
 

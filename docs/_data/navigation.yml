@@ -1,6 +1,8 @@
 # main links
 main:
 
+  - title: Logbook
+    url: /logbook/
 
   - title: Installation
     url: /install/
@@ -10,6 +12,11 @@ main:
 
 # left side bar
 docs:
+  - title: Logbook
+    children:
+    - title: Check it out
+      url: /logbook/
+
   - title: Installation
     children: 
     - title: How to install
