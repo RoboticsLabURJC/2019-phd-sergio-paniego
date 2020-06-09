@@ -11,12 +11,12 @@ toc_icon: "cog"
 
 
 categories:
-- your category
+- Detection Studio
 tags:
-- tag 1
-- tag 2
-- tag 3
-- tag 4
+- YOLO
+- OpenCV
+- darknet
+- object detection
 
 author: Sergio Paniego
 pinned: false
