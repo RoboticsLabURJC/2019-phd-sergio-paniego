@@ -1,6 +1,6 @@
 ---
 title: "PyTorch inferencer included"
-excerpt: "This is an example of my first post"
+excerpt: "PyTorch framework support is included in Detection Studio."
 
 sidebar:
   nav: "docs"

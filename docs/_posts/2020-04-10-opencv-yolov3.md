@@ -1,6 +1,6 @@
 ---
 title: "OpenCV-Yolov3 inferencer included"
-excerpt: "The template has been set up to administer equations"
+excerpt: "OpenCV-Yolov3 support is included in Detection Studio, getting rid of darknet framework dependency."
 
 sidebar:
   nav: "docs"

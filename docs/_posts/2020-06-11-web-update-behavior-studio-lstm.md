@@ -1,6 +1,6 @@
 ---
 title: "Web update, Behavior Studio installation and LSTM"
-excerpt: "The template has been set up to administer equations"
+excerpt: "This webpage is updated with blog posts from previous weeks and general LSTM paper reading is conducted."
 
 sidebar:
   nav: "docs"

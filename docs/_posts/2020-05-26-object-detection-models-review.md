@@ -1,6 +1,6 @@
 ---
 title: "Object detection models review"
-excerpt: "The template has been set up to administer equations"
+excerpt: "General review of object detection papers to improve the paper and the experiments."
 
 sidebar:
   nav: "docs"

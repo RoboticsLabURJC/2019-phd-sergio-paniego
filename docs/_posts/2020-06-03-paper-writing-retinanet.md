@@ -1,6 +1,6 @@
 ---
 title: "Paper writing, documentation update and RetinaNet reading"
-excerpt: "The template has been set up to administer equations"
+excerpt: "The paper is completed and RetinaNet paper is read."
 
 sidebar:
   nav: "docs"

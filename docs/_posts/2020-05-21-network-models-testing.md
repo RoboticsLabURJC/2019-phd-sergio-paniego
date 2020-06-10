@@ -1,6 +1,6 @@
 ---
 title: "Network models testing"
-excerpt: "The template has been set up to administer equations"
+excerpt: "Experiments with some of the most common object detection models are conducted."
 
 sidebar:
   nav: "docs"
