@@ -27,3 +27,11 @@ Papers were related to a general review of object detection models and the most 
 model's papers
 
 ## Object detection model review
+
+The broad variety of models can be divided in two main groups. The models which are based on a two-step approach and the one-step models.
+
+
+
+
+
+
