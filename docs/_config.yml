@@ -121,12 +121,12 @@ analytics:
 ############################ EDIT THIS SECTION ###############################
 # PROFILE
 # Site Author
-# author:
-#   name             : "Your Name"
-#   avatar           : "/assets/images/profile.jpg"
-#   bio              : "Site for my documentation"
-#   location         : "Location"
-#   email            :
+ author:
+   name             : "Sergio Paniego"
+   avatar           : "/assets/images/profile.jpg"
+   bio              : "Site for my documentation"
+   location         : "Madrid"
+   email            :
 #   links:
 #     - label: "Email"
 #       icon: "fas fa-fw fa-envelope-square"

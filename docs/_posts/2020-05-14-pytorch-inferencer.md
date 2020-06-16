@@ -5,10 +5,6 @@ excerpt: "PyTorch framework support is included in Detection Studio."
 sidebar:
   nav: "docs"
 
-toc: true
-toc_label: "TOC installation"
-toc_icon: "cog"
-
 
 categories:
 - Detection Studio
@@ -24,7 +20,7 @@ During this week, additional support for PyTorch in Detection Studio was given.
 
 ## PyTorch
 
-[PyTorch](https://arxiv.org/abs/1912.01703) is one of the most used deep learning [frameworks](https://pytorch.org/) nowadays.
+PyTorch [[1]](https://arxiv.org/abs/1912.01703) is one of the most used deep learning frameworks [[2]](https://pytorch.org/) nowadays.
 
 Some interesting parts extracted from PyTorch's paper that sum up the idea of the project:
 
@@ -50,3 +46,10 @@ that is connected to C++. Detection Studio is mainly implemented in C++, so it c
 
 A configuration file is needed for giving support to PyTorch. This file is read by Detection Studio to understand 
 where the model is and which model is. 
+
+## References
+
+[[1] Adam Paszke, Sam Gross, Francisco Massa, Adam Lerer, James Bradbury, Gregory Chanan, Trevor Killeen, Zeming Lin, Natalia Gimelshein, Luca Antiga, Alban Desmaison, Andreas Köpf, Edward Yang, Zach DeVito, Martin Raison, Alykhan Tejani, Sasank Chilamkurthy, Benoit Steiner, Lu Fang, Junjie Bai, Soumith Chintala, PyTorch: An Imperative Style, High-Performance Deep Learning Library, 2019](https://arxiv.org/abs/1912.01703)
+
+
+[[2] PyTorch framework](https://pytorch.org/)

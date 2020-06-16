@@ -5,11 +5,6 @@ excerpt: "OpenCV-Yolov3 support is included in Detection Studio, getting rid of 
 sidebar:
   nav: "docs"
 
-toc: true
-toc_label: "TOC installation"
-toc_icon: "cog"
-
-
 categories:
 - Detection Studio
 tags:

@@ -5,11 +5,6 @@ excerpt: "Experiments with some of the most common object detection models are c
 sidebar:
   nav: "docs"
 
-toc: true
-toc_label: "TOC installation"
-toc_icon: "cog"
-
-
 categories:
 - Detection Studio
 tags:
@@ -35,9 +30,10 @@ were used. The models are:
 * YOLOv3 implemented in darknet.
 * Faster RCNN Resnet 50 FPN implemented in PyTorch.
 
-The Tensorflow models were downloaded from [Tensorflow model zoo](), where they offer a selections of models. The YOLOv3
-weights and configuration were downloaded from the [official documentation]() and the PyTorch model is included
-in torchvision module. 
+The Tensorflow models were downloaded from Tensorflow model zoo [[1]](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md), where they offer a selections of models. 
+The YOLOv3
+weights and configuration were downloaded from the official documentation [[2]](https://pjreddie.com/darknet/yolo/) and the PyTorch model is included
+in torchvision module [[3]](https://pytorch.org/docs/stable/torchvision/models.html). 
 
 With this selection of models, some of the most common approaches in object detection were evaluated and even having 
 different deep learning frameworks for some of them. This scenario shows that Detection Studio can help evaluating models 
@@ -45,6 +41,11 @@ from different approaches, different frameworks...
 
 Additionally, the experiment was conducted on the same computer environment, to make things fair.
 
+## References
 
+[[1] Tensorflow model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md)
 
+[[2] YOLO website](https://pjreddie.com/darknet/yolo/)
+
+[[3] Torchvision module](https://pytorch.org/docs/stable/torchvision/models.html)
 
