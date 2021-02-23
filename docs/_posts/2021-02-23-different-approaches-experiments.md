@@ -45,6 +45,26 @@ gallery7:
   - url: /assets/images/logbook/20210223/pilotnet-stats.png
     image_path: /assets/images/logbook/20210223/pilotnet-stats.png
     alt: "PilotNet stats"
+gallery8:
+  - url: /assets/images/logbook/20210223/completed-distance.png
+    image_path: /assets/images/logbook/20210223/completed-distance.png
+    alt: "Completed distance"
+gallery9:
+  - url: /assets/images/logbook/20210223/completed-percentage.png
+    image_path: /assets/images/logbook/20210223/completed-percentage.png
+    alt: "Completed percentage"
+gallery10:
+  - url: /assets/images/logbook/20210223/circuit-diameter.png
+    image_path: /assets/images/logbook/20210223/circuit-diameter.png
+    alt: "Circuit diameter"
+gallery11:
+  - url: /assets/images/logbook/20210223/average-speed.png
+    image_path: /assets/images/logbook/20210223/average-speed.png
+    alt: "Average speed"
+gallery12:
+  - url: /assets/images/logbook/20210223/lap-seconds.png
+    image_path: /assets/images/logbook/20210223/lap-seconds.png
+    alt: "Lap seconds"
     
 ---
 
@@ -118,5 +138,34 @@ since we are only learning concepts and the goal is to generate brains that lear
 
 # Results in test circuit
 
+In this section we are going to analyse the results for the different brains in 2 test circuits. For the experiments, each brain is run 
+5 times on each circuit in order to have reliable data to analyse. 
 
+In these experiments the most amount of data is captured so then we can understand deeply what is going on inside the brain. The timeout for each experiment
+for a certain circuit is always the same, 120 seconds for the *simple circuit* and 180 for the *many curves*. For the **completed distance**, 
+we can detect that the *many curves* circuit is longer and that the deepest lstm network usually completes the longer distance where as the tinypilotnet
+is the one performing worse. The **completed percentage** should look quite similar to the previous result and that is what actually happens. In the **circuit diameter**
+we can detect some weird scenarios. This columns show the circuit diameters only for the brains that have *completed* a lap. 
+As we can see, the first 3 brains are better than the 2 on the left. If we look at the third column from the left hand side, for a tinypilotnet brain the circuit diameter is less
+than for the rest of the brain for that same circuit (many curves as its red). This means that this experiment has experimented some trouble an its erroneous, so we should not consider
+the tinypilonet network to have completed any lap at all. 
+
+The average speed shows some interesting conclusions. The explicit brain is the one used to generate the dataset and is considered the reference. We expect the brains to be slower than this
+brain but as we can see, the deepest lstm tinypilonet is always faster. 
+
+## Completed distance
+
+{% include gallery id="gallery8" caption="" %}
+
+## Completed percentage
+{% include gallery id="gallery9" caption="" %}
+
+## Circuit diameter
+{% include gallery id="gallery10" caption="" %}
+
+## Average speed
+{% include gallery id="gallery11" caption="" %}
+
+## Lap seconds
+{% include gallery id="gallery12" caption="" %}
 
