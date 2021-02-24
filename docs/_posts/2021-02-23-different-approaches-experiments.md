@@ -109,6 +109,26 @@ gallery23:
   - url: /assets/images/logbook/20210223/lap-seconds-3.png
     image_path: /assets/images/logbook/20210223/lap-seconds-3.png
     alt: "Lap seconds"
+gallery24:
+  - url: /assets/images/logbook/20210223/completed-distance-4.png
+    image_path: /assets/images/logbook/20210223/completed-distance-4.png
+    alt: "Completed distance"
+gallery25:
+  - url: /assets/images/logbook/20210223/completed-percentage-4.png
+    image_path: /assets/images/logbook/20210223/completed-percentage-4.png
+    alt: "Completed percentage"
+gallery26:
+  - url: /assets/images/logbook/20210223/circuit-diameter-4.png
+    image_path: /assets/images/logbook/20210223/circuit-diameter-4.png
+    alt: "Circuit diameter"
+gallery27:
+  - url: /assets/images/logbook/20210223/average-speed-4.png
+    image_path: /assets/images/logbook/20210223/average-speed-4.png
+    alt: "Average speed"
+gallery28:
+  - url: /assets/images/logbook/20210223/lap-seconds-4.png
+    image_path: /assets/images/logbook/20210223/lap-seconds-4.png
+    alt: "Lap seconds"
 
 ---
 
@@ -265,3 +285,19 @@ It's still not good enough when compared to the other networks based on LSTMs bu
 
 
 # Results for TinyPilonet with L2 regularization
+
+In this experiment tinypilonet is retrained with L2 regularization in the Dense layers after the convolutional layers. Trained again
+for 300 epochs, we obtain a much better network that outperforms the previous Tinypilonet implementation. Once again, we select the 
+checkpoint for the best trained network instead of the network at 300 epochs an the results are as follows, clearly improving the performance.
+
+
+## Completed distance
+{% include gallery id="gallery24" caption="" %}
+## Completed percentage
+{% include gallery id="gallery25" caption="" %}
+## Circuit diameter
+{% include gallery id="gallery26" caption="" %}
+## Average speed
+{% include gallery id="gallery27" caption="" %}
+## Lap seconds
+{% include gallery id="gallery28" caption="" %}
