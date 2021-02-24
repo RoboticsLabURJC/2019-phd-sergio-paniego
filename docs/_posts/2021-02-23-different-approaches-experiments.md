@@ -89,6 +89,26 @@ gallery18:
   - url: /assets/images/logbook/20210223/cropped-image.png
     image_path: /assets/images/logbook/20210223/cropped-image.png
     alt: "Cropped image"
+gallery19:
+  - url: /assets/images/logbook/20210223/completed-distance-3.png
+    image_path: /assets/images/logbook/20210223/completed-distance-3.png
+    alt: "Completed distance"
+gallery20:
+  - url: /assets/images/logbook/20210223/completed-percentage-3.png
+    image_path: /assets/images/logbook/20210223/completed-percentage-3.png
+    alt: "Completed percentage"
+gallery21:
+  - url: /assets/images/logbook/20210223/circuit-diameter-3.png
+    image_path: /assets/images/logbook/20210223/circuit-diameter-3.png
+    alt: "Circuit diameter"
+gallery22:
+  - url: /assets/images/logbook/20210223/average-speed-3.png
+    image_path: /assets/images/logbook/20210223/average-speed-3.png
+    alt: "Average speed"
+gallery23:
+  - url: /assets/images/logbook/20210223/lap-seconds-3.png
+    image_path: /assets/images/logbook/20210223/lap-seconds-3.png
+    alt: "Lap seconds"
 
 ---
 
@@ -222,3 +242,26 @@ LSTMs are resilient enough to still manage to complete the circuit, whereas the 
 {% include gallery id="gallery17" caption="" %}
 ## Cropped image
 {% include gallery id="gallery18" caption="" %}
+
+
+# Results with PilotNet checkpoint
+
+Checking back the results for PilotNet, we can understand that this brain performance is ok but it sometimes fails to complete the circuit.
+In this experiment, we explore the performance of PilotNet checkpoint network. This network is just the same as the previous one but 
+on its best point in training, instead of in the 300 epoch. As we can see, its performance is better than for the 300 epoch network. 
+It's still not good enough when compared to the other networks based on LSTMs but it's performance is quite good. 
+
+
+## Completed distance
+{% include gallery id="gallery19" caption="" %}
+## Completed percentage
+{% include gallery id="gallery20" caption="" %}
+## Circuit diameter
+{% include gallery id="gallery21" caption="" %}
+## Average speed
+{% include gallery id="gallery22" caption="" %}
+## Lap seconds
+{% include gallery id="gallery23" caption="" %}
+
+
+# Results for TinyPilonet with L2 regularization
