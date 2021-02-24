@@ -65,7 +65,31 @@ gallery12:
   - url: /assets/images/logbook/20210223/lap-seconds.png
     image_path: /assets/images/logbook/20210223/lap-seconds.png
     alt: "Lap seconds"
-    
+gallery13:
+  - url: /assets/images/logbook/20210223/completed-distance-2.png
+    image_path: /assets/images/logbook/20210223/completed-distance-2.png
+    alt: "Completed distance"
+gallery14:
+  - url: /assets/images/logbook/20210223/completed-percentage-2.png
+    image_path: /assets/images/logbook/20210223/completed-percentage-2.png
+    alt: "Completed percentage"
+gallery15:
+  - url: /assets/images/logbook/20210223/circuit-diameter-2.png
+    image_path: /assets/images/logbook/20210223/circuit-diameter-2.png
+    alt: "Circuit diameter"
+gallery16:
+  - url: /assets/images/logbook/20210223/average-speed-2.png
+    image_path: /assets/images/logbook/20210223/average-speed-2.png
+    alt: "Average speed"
+gallery17:
+  - url: /assets/images/logbook/20210223/lap-seconds-2.png
+    image_path: /assets/images/logbook/20210223/lap-seconds-2.png
+    alt: "Lap seconds"
+gallery18:
+  - url: /assets/images/logbook/20210223/cropped-image.png
+    image_path: /assets/images/logbook/20210223/cropped-image.png
+    alt: "Cropped image"
+
 ---
 
 In this blogpost, I will sum up the last weeks (months) of work in this project. Many improvements have been made and my 
@@ -136,7 +160,7 @@ since we are only learning concepts and the goal is to generate brains that lear
 {% include gallery id="gallery6" caption="" %}
 {% include gallery id="gallery7" caption="" %}
 
-# Results in test circuit
+# Results in test circuits
 
 In this section we are going to analyse the results for the different brains in 2 test circuits. For the experiments, each brain is run 
 5 times on each circuit in order to have reliable data to analyse. 
@@ -152,6 +176,8 @@ the tinypilonet network to have completed any lap at all.
 
 The average speed shows some interesting conclusions. The explicit brain is the one used to generate the dataset and is considered the reference. We expect the brains to be slower than this
 brain but as we can see, the deepest lstm tinypilonet is always faster. 
+
+*Click on the images to expand them.*
 
 ## Completed distance
 
@@ -169,3 +195,30 @@ brain but as we can see, the deepest lstm tinypilonet is always faster.
 ## Lap seconds
 {% include gallery id="gallery12" caption="" %}
 
+
+# Results in test circuits with modifications
+
+Now that we have covered results for several brains in the 2 circuits available, here we present some modifications to those
+experiments to test a little bit further the brains. These experiments involve a modification of the *simple circuit* and a modification on the 
+images input to test the resilience of the networks and understand what they are learning.
+
+In the first case, the simple circuit walls color are changed to black (in the raw simple circuit they are white). This change is made in order
+to understand if the walls color has something to do in the behavior of the brains. As we can see in the results (columns in blue), the brains 
+can't usually complete the circuit due to this condition, even taking into consideration that the images are cropped (see bottom figure). 
+
+In the second scenario, the input images color channels are changed from RGB to BGR. In this case, the results show that the networks based on 
+LSTMs are resilient enough to still manage to complete the circuit, whereas the only CNN options have more problems. 
+
+
+## Completed distance
+{% include gallery id="gallery13" caption="" %}
+## Completed percentage
+{% include gallery id="gallery14" caption="" %}
+## Circuit diameter
+{% include gallery id="gallery15" caption="" %}
+## Average speed
+{% include gallery id="gallery16" caption="" %}
+## Lap seconds
+{% include gallery id="gallery17" caption="" %}
+## Cropped image
+{% include gallery id="gallery18" caption="" %}
