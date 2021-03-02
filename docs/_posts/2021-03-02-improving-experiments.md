@@ -38,6 +38,50 @@ gallery4:
   - url: /assets/images/logbook/20210302/lap-seconds-1.png
     image_path: /assets/images/logbook/20210302/lap-seconds-1.png
     alt: "Lap seconds"
+gallery5:
+  - url: /assets/images/logbook/20210302/completed-distance-2.png
+    image_path: /assets/images/logbook/20210302/completed-distance-2.png
+    alt: "Completed distance"
+gallery6:
+  - url: /assets/images/logbook/20210302/completed-percentage-2.png
+    image_path: /assets/images/logbook/20210302/completed-percentage-2.png
+    alt: "Completed percentage"
+gallery7:
+  - url: /assets/images/logbook/20210302/circuit-diameter-2.png
+    image_path: /assets/images/logbook/20210302/circuit-diameter-2.png
+    alt: "Circuit diameter"
+gallery8:
+  - url: /assets/images/logbook/20210302/average-speed-2.png
+    image_path: /assets/images/logbook/20210302/average-speed-2.png
+    alt: "Average speed"
+gallery9:
+  - url: /assets/images/logbook/20210302/lap-seconds-2.png
+    image_path: /assets/images/logbook/20210302/lap-seconds-2.png
+    alt: "Lap seconds"
+gallery10:
+  - url: /assets/images/logbook/20210302/dataset-1.png
+    image_path: /assets/images/logbook/20210302/dataset-1.png
+    alt: "Dataset 1"
+gallery11:
+  - url: /assets/images/logbook/20210302/dataset-2.png
+    image_path: /assets/images/logbook/20210302/dataset-2.png
+    alt: "Dataset 1"
+gallery12:
+  - url: /assets/images/logbook/20210302/dataset-3.png
+    image_path: /assets/images/logbook/20210302/dataset-3.png
+    alt: "Dataset 1"
+gallery13:
+  - url: /assets/images/logbook/20210302/dataset-4.png
+    image_path: /assets/images/logbook/20210302/dataset-4.png
+    alt: "Dataset 1"
+gallery14:
+  - url: /assets/images/logbook/20210302/dataset-5.png
+    image_path: /assets/images/logbook/20210302/dataset-5.png
+    alt: "Dataset 1"
+gallery15:
+  - url: /assets/images/logbook/20210302/dataset-6.png
+    image_path: /assets/images/logbook/20210302/dataset-6.png
+    alt: "Dataset 1"
 
 ---
 
@@ -76,4 +120,37 @@ several times.
 
 ## Lap seconds
 {% include gallery id="gallery4" caption="" %}
+
+
+# Results for LSTM networks with patched dataset
+
+In new experiment the LSTM networks are trained with images without the red line, changing the color of those pixels to match
+the rest of the floor. Below we can check some examples. 
+
+{% include gallery id="gallery10" caption="" %}
+{% include gallery id="gallery11" caption="" %}
+{% include gallery id="gallery12" caption="" %}
+{% include gallery id="gallery13" caption="" %}
+{% include gallery id="gallery14" caption="" %}
+{% include gallery id="gallery15" caption="" %}
+
+If we look at the result of this experiment, we can say that the deepest still manages to learn how to drive but the Tinypilonet does not
+perform well enough. The right part of the results is again the new experiment, the middle the previous one and the left is the explicit brain results.
+
+## Completed distance
+
+{% include gallery id="gallery5" caption="" %}
+
+## Completed percentage
+{% include gallery id="gallery6" caption="" %}
+
+## Circuit diameter
+{% include gallery id="gallery7" caption="" %}
+
+## Average speed
+{% include gallery id="gallery8" caption="" %}
+
+## Lap seconds
+{% include gallery id="gallery9" caption="" %}
+
 
