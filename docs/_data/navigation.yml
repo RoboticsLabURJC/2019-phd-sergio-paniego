@@ -21,13 +21,4 @@ docs:
     children: 
     - title: How to install
       url: /install/
-
-  - title: Documentation
-    children:
-    - title: Requisites
-      url: //
-    - title: Install
-      url: //
-    - title: Usage
-      url: //
   

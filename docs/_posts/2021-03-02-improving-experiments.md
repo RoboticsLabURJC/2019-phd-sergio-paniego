@@ -2,6 +2,7 @@
 title: "Improving previous experiments"
 excerpt: "Taking last week's experiments and improving the results"
 
+
 sidebar:
   nav: "docs"
 
@@ -87,8 +88,15 @@ gallery15:
 
 This week, the previous experiment results are improved using new approaches. 
 
+Experiments:
+* [Results for non-LSTM networks with extreme data](#experiment-1)
+* [Results for LSTM networks with patched dataset](#experiment-2)
+* [Results for best networks in new Montmelo circuit](#experiment-3)
+* [Best networks results so far](#experiment-4)
 
-# Results for non-LSTM networks with extreme data
+
+<a name="experiment-1"></a>
+# 1. Results for non-LSTM networks with extreme data
 
 In the previous blog, we saw that PilotNet and TinyPilotNet performance was ok and we improved their results with some small tricks. 
 This week, we have tried to get rid of those tricks and instead go a step backward and focus on the dataset. We have decided
@@ -121,8 +129,8 @@ several times.
 ## Lap seconds
 {% include gallery id="gallery4" caption="" %}
 
-
-# Results for LSTM networks with patched dataset
+<a name="experiment-2"></a>
+# 2. Results for LSTM networks with patched dataset
 
 In new experiment the LSTM networks are trained with images without the red line, changing the color of those pixels to match
 the rest of the floor. Below we can check some examples. 
@@ -153,4 +161,28 @@ perform well enough. The right part of the results is again the new experiment, 
 ## Lap seconds
 {% include gallery id="gallery9" caption="" %}
 
+<a name="experiment-3"></a>
+# Results for best networks in new Montmeló circuit
+
+A new circuit is added for the experiments, a simulation of the real F1 circuit Montmeló. 
+
+**CIRCUIT IMAGE**
+
+This is a circuit that is not present in the dataset so it can be used for real test. The many_curves circuit is part of the dataset
+and the simple circuit is not directly part but a more complex design based on it is, so they both can be biased.
+
+Montmeló circuit has some particularities, having some very difficult turns. Below are the results for all the best networks in this 
+new circuit. 
+
+**RESULTS**
+
+
+<a name="experiment-4"></a>
+# Best networks results so far
+
+In this case, we saw a comparison of the best trained networks so far for each architecture. As we have studied, for LSTM, the networks trained
+with a sequence dataset are so far the best ones. In the case of the non-LSTM networks, the ones trained on the dataset with extreme cases outperforms
+the rest, so here we compare those side by side.
+
+**RESULTS**
 
