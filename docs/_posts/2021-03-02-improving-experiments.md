@@ -66,23 +66,47 @@ gallery10:
 gallery11:
   - url: /assets/images/logbook/20210302/dataset-2.png
     image_path: /assets/images/logbook/20210302/dataset-2.png
-    alt: "Dataset 1"
+    alt: "Dataset 2"
 gallery12:
   - url: /assets/images/logbook/20210302/dataset-3.png
     image_path: /assets/images/logbook/20210302/dataset-3.png
-    alt: "Dataset 1"
+    alt: "Dataset 3"
 gallery13:
   - url: /assets/images/logbook/20210302/dataset-4.png
     image_path: /assets/images/logbook/20210302/dataset-4.png
-    alt: "Dataset 1"
+    alt: "Dataset 4"
 gallery14:
   - url: /assets/images/logbook/20210302/dataset-5.png
     image_path: /assets/images/logbook/20210302/dataset-5.png
-    alt: "Dataset 1"
+    alt: "Dataset 5"
 gallery15:
   - url: /assets/images/logbook/20210302/dataset-6.png
     image_path: /assets/images/logbook/20210302/dataset-6.png
-    alt: "Dataset 1"
+    alt: "Dataset 6"
+gallery16:
+  - url: /assets/images/logbook/20210302/completed-distance-3.png
+    image_path: /assets/images/logbook/20210302/completed-distance-3.png
+    alt: "Completed distance"
+gallery17:
+  - url: /assets/images/logbook/20210302/completed-percentage-3.png
+    image_path: /assets/images/logbook/20210302/completed-percentage-3.png
+    alt: "Completed percentage"
+gallery18:
+  - url: /assets/images/logbook/20210302/circuit-diameter-3.png
+    image_path: /assets/images/logbook/20210302/circuit-diameter-3.png
+    alt: "Circuit diameter"
+gallery19:
+  - url: /assets/images/logbook/20210302/average-speed-3.png
+    image_path: /assets/images/logbook/20210302/average-speed-3.png
+    alt: "Average speed"
+gallery20:
+  - url: /assets/images/logbook/20210302/lap-seconds-3.png
+    image_path: /assets/images/logbook/20210302/lap-seconds-3.png
+    alt: "Lap seconds"
+gallery21:
+  - url: /assets/images/logbook/20210302/montmelo-circuit.png
+    image_path: /assets/images/logbook/20210302/montmelo-circuit.png
+    alt: "Montmeló cictuit"
 
 ---
 
@@ -92,8 +116,6 @@ Experiments:
 * [Results for non-LSTM networks with extreme data](#experiment-1)
 * [Results for LSTM networks with patched dataset](#experiment-2)
 * [Results for best networks in new Montmelo circuit](#experiment-3)
-* [Best networks results so far](#experiment-4)
-
 
 <a name="experiment-1"></a>
 # 1. Results for non-LSTM networks with extreme data
@@ -166,23 +188,32 @@ perform well enough. The right part of the results is again the new experiment, 
 
 A new circuit is added for the experiments, a simulation of the real F1 circuit Montmeló. 
 
-**CIRCUIT IMAGE**
+## Circuit
+
+{% include gallery id="gallery21" caption="" %}
 
 This is a circuit that is not present in the dataset so it can be used for real test. The many_curves circuit is part of the dataset
 and the simple circuit is not directly part but a more complex design based on it is, so they both can be biased.
 
 Montmeló circuit has some particularities, having some very difficult turns. Below are the results for all the best networks in this 
-new circuit. 
-
-**RESULTS**
+new circuit. None of the trained networks completes the circuit. The deepest LSTM is the one performing the best, completing some part of the circuit.
 
 
-<a name="experiment-4"></a>
-# Best networks results so far
+## Completed distance
 
-In this case, we saw a comparison of the best trained networks so far for each architecture. As we have studied, for LSTM, the networks trained
-with a sequence dataset are so far the best ones. In the case of the non-LSTM networks, the ones trained on the dataset with extreme cases outperforms
-the rest, so here we compare those side by side.
+{% include gallery id="gallery16" caption="" %}
 
-**RESULTS**
+## Completed percentage
+{% include gallery id="gallery17" caption="" %}
+
+## Circuit diameter
+{% include gallery id="gallery18" caption="" %}
+
+## Average speed
+{% include gallery id="gallery19" caption="" %}
+
+## Lap seconds
+{% include gallery id="gallery20" caption="" %}
+
+
 
