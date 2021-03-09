@@ -39,6 +39,26 @@ gallery4:
   - url: /assets/images/logbook/20210309/lap-seconds-1.png
     image_path: /assets/images/logbook/20210309/lap-seconds-1.png
     alt: "Lap seconds"
+gallery5:
+  - url: /assets/images/logbook/20210309/completed-distance-2.png
+    image_path: /assets/images/logbook/20210309/completed-distance-2.png
+    alt: "Completed distance"
+gallery6:
+  - url: /assets/images/logbook/20210309/completed-percentage-2.png
+    image_path: /assets/images/logbook/20210309/completed-percentage-2.png
+    alt: "Completed percentage"
+gallery7:
+  - url: /assets/images/logbook/20210309/circuit-diameter-2.png
+    image_path: /assets/images/logbook/20210309/circuit-diameter-2.png
+    alt: "Circuit diameter"
+gallery8:
+  - url: /assets/images/logbook/20210309/average-speed-2.png
+    image_path: /assets/images/logbook/20210309/average-speed-2.png
+    alt: "Average speed"
+gallery9:
+  - url: /assets/images/logbook/20210309/lap-seconds-2.png
+    image_path: /assets/images/logbook/20210309/lap-seconds-2.png
+    alt: "Lap seconds"
 
 ---
 
@@ -46,6 +66,7 @@ New experiments this week.
 
 Experiments:
 * [Results for classification brain with extreme data](#experiment-1)
+* [Comparison of best brains for each architecture](#experiment-2)
 
 
 <a name="experiment-1"></a>
@@ -78,6 +99,29 @@ time and interpreting the differences in time to the classification schema chose
 ## Lap seconds
 {% include gallery id="gallery4" caption="" %}
 
+
+<a name="experiment-2"></a>
+# 2. Comparison of best brains for each architecture
+
+Complete comparison until now of the best trained models for each architecture. The brains generally can complete the 
+different circuits except for the Montmelo one. The only one that manages to complete a full lap in Montmelo is the classification
+brain. 
+
+## Completed distance
+
+{% include gallery id="gallery5" caption="" %}
+
+## Completed percentage
+{% include gallery id="gallery6" caption="" %}
+
+## Circuit diameter
+{% include gallery id="gallery7" caption="" %}
+
+## Average speed
+{% include gallery id="gallery8" caption="" %}
+
+## Lap seconds
+{% include gallery id="gallery9" caption="" %}
 
 
 
