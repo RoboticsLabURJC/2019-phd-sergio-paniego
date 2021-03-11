@@ -67,6 +67,8 @@ New experiments this week.
 Experiments:
 * [Results for classification brain with extreme data](#experiment-1)
 * [Comparison of best brains for each architecture](#experiment-2)
+* [Adding extreme sequences to LSTM based architectures](#experiment-3)
+
 
 
 <a name="experiment-1"></a>
@@ -124,4 +126,18 @@ brain.
 {% include gallery id="gallery9" caption="" %}
 
 
+<a name="experiment-3"></a>
+# 3. Adding extreme sequences to LSTM based architectures
 
+We already trained the CNN based architectures with extreme data in the previous week and discovered that it made the models improve
+by a great amount, so in this new experiment, we try adding extreme sequences to the LSTM based architectures to understand if
+it improves them. 
+
+3 ways of data augmentation are explored, but none improves the networks in the only scenario where they have issues, the Montmeló circuit. 
+These experiments with data augmentation are:
+
+* Add extreme sequences twice.
+* Remove moderate sequences.
+* Remove moderate sequences and add extreme sequences twice.
+
+None of them where successful.
