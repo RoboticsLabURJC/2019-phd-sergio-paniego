@@ -39,6 +39,26 @@ gallery4:
   - url: /assets/images/logbook/20210316/lap-seconds-1.png
     image_path: /assets/images/logbook/20210316/lap-seconds-1.png
     alt: "Lap seconds"
+gallery5:
+  - url: /assets/images/logbook/20210316/completed-distance-2.png
+    image_path: /assets/images/logbook/20210316/completed-distance-2.png
+    alt: "Completed distance"
+gallery6:
+  - url: /assets/images/logbook/20210316/completed-percentage-2.png
+    image_path: /assets/images/logbook/20210316/completed-percentage-2.png
+    alt: "Completed percentage"
+gallery7:
+  - url: /assets/images/logbook/20210316/circuit-diameter-2.png
+    image_path: /assets/images/logbook/20210316/circuit-diameter-2.png
+    alt: "Circuit diameter"
+gallery8:
+  - url: /assets/images/logbook/20210316/average-speed-2.png
+    image_path: /assets/images/logbook/20210316/average-speed-2.png
+    alt: "Average speed"
+gallery9:
+  - url: /assets/images/logbook/20210316/lap-seconds-2.png
+    image_path: /assets/images/logbook/20210316/lap-seconds-2.png
+    alt: "Lap seconds"
 
 
 ---
@@ -47,6 +67,7 @@ New experiments this week.
 
 Experiments:
 * [Results for different data augmentation strategies](#experiment-1)
+* [Results for different data augmentation strategies only in Montmeló](#experiment-2)
 
 
 
@@ -82,3 +103,27 @@ In this case, the results show that they still can't complete the Montmeló circ
 
 ## Lap seconds
 {% include gallery id="gallery4" caption="" %}
+
+
+<a name="experiment-2"></a>
+# 2. Results for different data augmentation strategies only in Montmeló
+
+More experiments for the same nets in Montmeló. In this case, we can see that the network trained with gaussian noise data augmentation is the 
+best one even completing the circuit once. It is the only regression based network that has completed the circuit so far. It's also important
+to consider that the experiments start on a random position and rotation in the circuit.
+
+## Completed distance
+
+{% include gallery id="gallery5" caption="" %}
+
+## Completed percentage
+{% include gallery id="gallery6" caption="" %}
+
+## Circuit diameter
+{% include gallery id="gallery7" caption="" %}
+
+## Average speed
+{% include gallery id="gallery8" caption="" %}
+
+## Lap seconds
+{% include gallery id="gallery9" caption="" %}
