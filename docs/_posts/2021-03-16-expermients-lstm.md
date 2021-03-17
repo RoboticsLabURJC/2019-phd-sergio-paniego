@@ -59,6 +59,26 @@ gallery9:
   - url: /assets/images/logbook/20210316/lap-seconds-2.png
     image_path: /assets/images/logbook/20210316/lap-seconds-2.png
     alt: "Lap seconds"
+gallery10:
+  - url: /assets/images/logbook/20210316/completed-distance-3.png
+    image_path: /assets/images/logbook/20210316/completed-distance-3.png
+    alt: "Completed distance"
+gallery11:
+  - url: /assets/images/logbook/20210316/completed-percentage-3.png
+    image_path: /assets/images/logbook/20210316/completed-percentage-3.png
+    alt: "Completed percentage"
+gallery12:
+  - url: /assets/images/logbook/20210316/circuit-diameter-3.png
+    image_path: /assets/images/logbook/20210316/circuit-diameter-3.png
+    alt: "Circuit diameter"
+gallery13:
+  - url: /assets/images/logbook/20210316/average-speed-3.png
+    image_path: /assets/images/logbook/20210316/average-speed-3.png
+    alt: "Average speed"
+gallery14:
+  - url: /assets/images/logbook/20210316/lap-seconds-3.png
+    image_path: /assets/images/logbook/20210316/lap-seconds-3.png
+    alt: "Lap seconds"
 
 
 ---
@@ -68,8 +88,7 @@ New experiments this week.
 Experiments:
 * [Results for different data augmentation strategies](#experiment-1)
 * [Results for different data augmentation strategies only in Montmeló](#experiment-2)
-
-
+* [Results for LeNet classification](#experiment-3)
 
 <a name="experiment-1"></a>
 # 1. Results for different data augmentation strategies
@@ -127,3 +146,31 @@ to consider that the experiments start on a random position and rotation in the 
 
 ## Lap seconds
 {% include gallery id="gallery9" caption="" %}
+
+
+<a name="experiment-3"></a>
+# 3. Results for LeNet classification
+
+For this experiment, we have considered the famous [LeNet](http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf) architecture from Yann Lecun et al.
+This architecture accepted 32x32 B/W images as input and has 90000 parameters in it's LeNet-5 structure. The number of parameters in the case of B/W images is
+comparable to the Deepest LSTM one, so we tested it's performance to have a *fair* comparison. We have 2 new networks in this case, one accepting B/W images (we transform the 
+dataset to make it suitable for this scenario) and other accepting color images (RGB). The experiments show that even this classification networks can complete the different 
+circuits (even Montmeló).
+
+
+## Completed distance
+
+{% include gallery id="gallery10" caption="" %}
+
+## Completed percentage
+{% include gallery id="gallery11" caption="" %}
+
+## Circuit diameter
+{% include gallery id="gallery12" caption="" %}
+
+## Average speed
+{% include gallery id="gallery13" caption="" %}
+
+## Lap seconds
+{% include gallery id="gallery14" caption="" %}
+
