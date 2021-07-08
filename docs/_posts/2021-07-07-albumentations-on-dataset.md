@@ -53,6 +53,7 @@ Experiments:
 * [Results for Pilotnet with extreme cases](#experiment-2)
 * [Results for Pilotnet with extreme cases repeated more](#experiment-3)
 * [Results for Pilotnet with complete-many_curves dataset and extreme cases](#experiment-4)
+* [Results for Pilotnet with complete-many_curves dataset and extreme cases x 2 ](#experiment-5)
 
 <a name="experiment-1"></a>
 # 1. Results for Pilotnet with train and validation data
@@ -69,7 +70,9 @@ It fails on the final turns.
 <a name="experiment-3"></a>
 # 3. Results for Pilotnet with extreme cases repeated more
 
-soon...
+Finally, this brain can complete Montmeló! 
+
+The dataset is both Train and Test folders with extreme cases repeated even more. 
 
 <a name="experiment-4"></a>
 # 4. Results for Pilotnet with complete-many_curves dataset and extreme cases
@@ -83,4 +86,10 @@ This new scenario generates a Pilotnet brain that can complete all the circuits,
 ## Montmeló completed
 
 {% include gallery id="gallery" caption="" %} 
+
+<a name="experiment-5"></a>
+# 5. Results for Pilotnet with complete-many_curves dataset and extreme cases x 2 
+
+Following the same idea developed on Experiment 3, for this experiment complete and many curves datasets are used but adding even more times
+the extreme casees. This new brain is also able to complete Montmeló
 
