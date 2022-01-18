@@ -94,25 +94,25 @@ of the brain per second, enough for this control task.
 
 
 
-{% include gallery id="gallery" caption="1" %}
+{% include gallery id="gallery" caption="Completed distance comparison" %}
 
-{% include gallery id="gallery1" caption="2" %}
+{% include gallery id="gallery1" caption="Completed percentage comparison" %}
 
-{% include gallery id="gallery2" caption="3" %}
+{% include gallery id="gallery2" caption="Position deviation comparison" %}
 
-{% include gallery id="gallery3" caption="4" %}
+{% include gallery id="gallery3" caption="Laps seconds comparison" %}
 
-{% include gallery id="gallery4" caption="5" %}
+{% include gallery id="gallery4" caption="Average speed comparison" %}
 
-{% include gallery id="gallery5" caption="6" %}
+{% include gallery id="gallery5" caption="Frame rate comparison" %}
 
-{% include gallery id="gallery6" caption="7" %}
+{% include gallery id="gallery6" caption="Mean iteration time comparison" %}
 
-{% include gallery id="gallery7" caption="8" %}
+{% include gallery id="gallery7" caption="Mean inference time comparison" %}
 
-{% include gallery id="gallery8" caption="9" %}
+{% include gallery id="gallery8" caption="Mean ROS iteration time comparison" %}
 
-{% include gallery id="gallery9" caption="10" %}
+{% include gallery id="gallery9" caption="Real time factor comparison" %}
 
 # Detail of position deviation
 
@@ -120,4 +120,4 @@ In this plot, a detail of the position deviation values is shown, removing one v
 The plot shows that the `Real time update rate` plays an important role in the simulations, when it's 100 or lower, the
 performance of the different brains is close to the same.
 
-{% include gallery id="gallery10" caption="11" %}
+{% include gallery id="gallery10" caption="Position deviation detailed comparison" %}
