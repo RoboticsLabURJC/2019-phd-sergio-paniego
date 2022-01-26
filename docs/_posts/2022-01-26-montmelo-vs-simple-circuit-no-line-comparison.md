@@ -26,13 +26,21 @@ gallery1:
     image_path: /assets/images/logbook/20220126/completed_percentage_comparison.png
     alt: "Completed percentage comparison"
 gallery2:
-  - url: /assets/images/logbook/20220126/position_deviation_comparison.png
-    image_path: /assets/images/logbook/20220126/position_deviation_comparison.png
+  - url: /assets/images/logbook/20220126/position_deviation_comparison_1.png
+    image_path: /assets/images/logbook/20220126/position_deviation_comparison_1.png
     alt: "Position deviation comparison"
 gallery3:
   - url: /assets/images/logbook/20220126/lap_seconds_comparison.png
     image_path: /assets/images/logbook/20220126/lap_seconds_comparison.png
     alt: "Lap seconds comparison"
+gallery4:
+  - url: /assets/images/logbook/20220126/position_deviation_comparison_2.png
+    image_path: /assets/images/logbook/20220126/position_deviation_comparison_2.png
+    alt: "Position deviation comparison"
+gallery5:
+  - url: /assets/images/logbook/20220126/position_deviation_comparison_3.png
+    image_path: /assets/images/logbook/20220126/position_deviation_comparison_3.png
+    alt: "Position deviation comparison"
 
 ---
 
@@ -73,7 +81,27 @@ The fourth brain again shows a great struggle on this circuit and fails miserabl
 
 {% include gallery id="gallery1" caption="Completed percentage comparison" %}
 
+{% include gallery id="gallery2" caption="Position deviation comparison" %}
+
 {% include gallery id="gallery3" caption="Completed distance comparison" %}
 
+# Detail of position deviation
+
+Taking a closer look to the position deviation values we can get a better insight of what's going on in the comparison.
+In the first image below, we can see the position deviation values for the brains that complete the Montmeló circuit. The PID controller (explicit brain) hast the 
+best value for this metric. For the neural network based brains, we can see a deceasing trend while we go from the simplest brain to the most advanced one. the Pilotnet with 3DCNNs.
+
+
+On the second image, we can see the mean position deviation value for the simple circuit without the red line. The values are really high, which means that the car is not "following the line" corretly 
+and the path that it follows is really different. Still, the Pilotnet 3DCNN brain is able to complete the circuit. This could be related to the addition of memory to the equation.
+
+{% include gallery id="gallery4" caption="Position deviation comparison" %}
+
+{% include gallery id="gallery5" caption="Position deviation comparison" %}
+
+# Conclusion
 
 With this post, we start to understand the differences of using a neural network based approach against a PID controller and a brain without memory against one that actually has some kind of memory.
+
+
+
