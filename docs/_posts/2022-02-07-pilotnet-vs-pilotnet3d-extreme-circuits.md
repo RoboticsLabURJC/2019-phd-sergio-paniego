@@ -7,7 +7,7 @@ sidebar:
   nav: "docs"
 
 categories:
-- Behavior Studio
+- Behavior Metrics
 tags:
 - comparison
 - Metrics
