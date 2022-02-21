@@ -57,16 +57,80 @@ gallery9:
     image_path: /assets/images/logbook/20220221/brain_iterations_freq_simulated.png
     alt: "Brain iterations frequency simulated"
 
+
+gallery10:
+  - url: /assets/images/logbook/20220221/completed_distance_montmelo.png
+    image_path: /assets/images/logbook/20220221/completed_distance_montmelo.png
+    alt: "Completed distance"
+gallery11:
+  - url: /assets/images/logbook/20220221/completed_percentage_montmelo.png
+    image_path: /assets/images/logbook/20220221/completed_percentage_montmelo.png
+    alt: "Completed percentage"
+gallery12:
+  - url: /assets/images/logbook/20220221/lap_seconds_montmelo.png
+    image_path: /assets/images/logbook/20220221/lap_seconds_montmelo.png
+    alt: "Lap seconds"
+gallery13:
+  - url: /assets/images/logbook/20220221/average_speed_montmelo.png
+    image_path: /assets/images/logbook/20220221/average_speed_montmelo.png
+    alt: "Average speed simple"
+gallery14:
+  - url: /assets/images/logbook/20220221/position_deviation_mean_montmelo.png
+    image_path: /assets/images/logbook/20220221/position_deviation_mean_montmelo.png
+    alt: "Position deviation mean"
+gallery15:
+  - url: /assets/images/logbook/20220221/frame_rate_montmelo.png
+    image_path: /assets/images/logbook/20220221/frame_rate_montmelo.png
+    alt: "Frame rate"
+gallery16:
+  - url: /assets/images/logbook/20220221/mean_inference_time_montmelo.png
+    image_path: /assets/images/logbook/20220221/mean_inference_time_montmelo.png
+    alt: "Mean inference time"
+gallery17:
+  - url: /assets/images/logbook/20220221/real_time_factor_montmelo.png
+    image_path: /assets/images/logbook/20220221/real_time_factor_montmelo.png
+    alt: "Real time factor"
+gallery18:
+  - url: /assets/images/logbook/20220221/mean_brain_iterations_real_montmelo.png
+    image_path: /assets/images/logbook/20220221/mean_brain_iterations_real_montmelo.png
+    alt: "Mean brain iterations real"
+gallery19:
+  - url: /assets/images/logbook/20220221/brain_iterations_freq_simulated_montmelo.png
+    image_path: /assets/images/logbook/20220221/brain_iterations_freq_simulated_montmelo.png
+    alt: "Brain iterations frequency simulated"
+
+gallery20:
+  - url: /assets/images/logbook/20220221/brain_iterations_freq_real_montmelo.png
+    image_path: /assets/images/logbook/20220221/brain_iterations_freq_real_montmelo.png
+    alt: "Mean inference time"
+gallery21:
+  - url: /assets/images/logbook/20220221/target_brain_iterations_simulated_montmelo.png
+    image_path: /assets/images/logbook/20220221/target_brain_iterations_simulated_montmelo.png
+    alt: "Real time factor"
+gallery22:
+  - url: /assets/images/logbook/20220221/target_brain_iterations_real_montmelo.png
+    image_path: /assets/images/logbook/20220221/target_brain_iterations_real_montmelo.png
+    alt: "Mean brain iterations real"
+gallery23:
+  - url: /assets/images/logbook/20220221/mean_brain_iterations_simulated_montmelo.png
+    image_path: /assets/images/logbook/20220221/mean_brain_iterations_simulated_montmelo.png
+    alt: "Brain iterations frequency simulated"
+
 ---
 
 This is the second iteration of the analysis of experiments. 
-In this case the experiments are conducted on the **simple circuit**, and with a special consideration. We only consider the 
-experiments where the simulated time is above 120 seconds, so we only consider successful experiments.
+In this case the experiments are conducted on the **Simple circuit and Montmeló**, and with a special consideration. We only consider the 
+experiments where the simulated time is above 120 seconds for Simple Circuit and 50 secs for Montmeló, so we only consider successful experiments.
 
 We compare 4 different brains modifying the brain cycle time, to set the maximum amount of iterations per second.
 
 Analyzing the experiments, we can see that **for evey brain, adding more possible brain iterations per second increases the performance**.
 
+
+* [Simple circuit results](#simple-circuit)
+* [Montmeló results](#montmelo)
+
+# Simple circuit
 
 {% include gallery id="gallery" caption="" %}
 
@@ -88,3 +152,32 @@ Analyzing the experiments, we can see that **for evey brain, adding more possibl
 
 {% include gallery id="gallery9" caption="" %}
 
+# Montmelo
+
+{% include gallery id="gallery10" caption="" %}
+
+{% include gallery id="gallery11" caption="" %}
+
+{% include gallery id="gallery12" caption="" %}
+
+{% include gallery id="gallery13" caption="" %}
+
+{% include gallery id="gallery14" caption="" %}
+
+{% include gallery id="gallery15" caption="" %}
+
+{% include gallery id="gallery16" caption="" %}
+
+{% include gallery id="gallery17" caption="" %}
+
+{% include gallery id="gallery18" caption="" %}
+
+{% include gallery id="gallery19" caption="" %}
+
+{% include gallery id="gallery20" caption="" %}
+
+{% include gallery id="gallery21" caption="" %}
+
+{% include gallery id="gallery22" caption="" %}
+
+{% include gallery id="gallery23" caption="" %}
