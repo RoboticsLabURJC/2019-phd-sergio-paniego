@@ -1,6 +1,6 @@
 ---
-title: "Extending new dataset and training Pilotnet model"
-excerpt: "The new dataset has been expanded for a broader support."
+title: "Looking at the distribution of cases in the dataset"
+excerpt: "Plotting the cases distribution of the dataset"
 
 
 sidebar:
