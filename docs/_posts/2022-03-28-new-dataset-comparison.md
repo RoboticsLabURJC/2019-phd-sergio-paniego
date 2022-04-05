@@ -72,38 +72,74 @@ pinned: false
 <tr>
   <td>PilotNet</td>
   <td>Old</td>
-  <td>-</td>
-  <td>-</td>
-  <td>-</td>
-  <td>-</td>
-  <td>-</td>
+  <td>✅</td>
+  <td>❌</td>
+  <td>✅</td>
+  <td>✅</td>
+  <td>❌</td>
 </tr>
 <tr>
   <td>PilotNet</td>
   <td>NEW</td>
-  <td>-</td>
-  <td>-</td>
-  <td>-</td>
-  <td>-</td>
-  <td>-</td>
+  <td>✅</td>
+  <td>❌(last turns)</td>
+  <td>❌(some turns ok)</td>
+  <td>✅</td>
+  <td>❌</td>
 </tr>
 <tr>
   <td>Deepest LSTM</td>
   <td>Old</td>
-  <td>-</td>
-  <td>-</td>
-  <td>-</td>
-  <td>-</td>
-  <td>-</td>
+  <td>✅</td>
+  <td>❌</td>
+  <td>✅</td>
+  <td>❌</td>
+  <td>❌</td>
 </tr>
 <tr>
   <td>Deepest LSTM</td>
   <td>NEW</td>
-  <td>-</td>
-  <td>-</td>
-  <td>-</td>
-  <td>-</td>
-  <td>-</td>
+  <td>✅</td>
+  <td>❌</td>
+  <td>❌</td>
+  <td>✅</td>
+  <td>❌</td>
+</tr>
+<tr>
+  <td>Frankenstein</td>
+  <td>Old</td>
+  <td>✅(lowering rate)</td>
+  <td>✅</td>
+  <td>✅(over the grass</td>
+  <td>✅</td>
+  <td>❌</td>
+</tr>
+<tr>
+  <td>Frankenstein</td>
+  <td>NEW</td>
+  <td>❌</td>
+  <td>❌</td>
+  <td>❌</td>
+  <td>❌</td>
+  <td>❌</td>
+</tr>
+<tr>
+  <td>PilotNet 3D</td>
+  <td>Old</td>
+  <td>✅(lowering rate)</td>
+  <td>❌</td>
+  <td>❌</td>
+  <td>✅</td>
+  <td>❌</td>
+</tr>
+<tr>
+  <td>PilotNet 3D</td>
+  <td>NEW</td>
+  <td>❌</td>
+  <td>❌</td>
+  <td>❌</td>
+  <td>❌</td>
+  <td>❌</td>
 </tr>
 </tbody>
 </table>
