@@ -15,7 +15,30 @@ tags:
 author: Sergio Paniego
 pinned: false
 
-
+gallery:
+  - url: /assets/images/logbook/20220405/explicit_dataset.png
+    image_path: /assets/images/logbook/20220405/explicit_dataset.png
+    alt: ""
+gallery1:
+  - url: /assets/images/logbook/20220405/explicit_dataset_time_distributed.png
+    image_path: /assets/images/logbook/20220405/explicit_dataset_time_distributed.png
+    alt: ""
+gallery2:
+  - url: /assets/images/logbook/20220405/old_dataset.png
+    image_path: /assets/images/logbook/20220405/old_dataset.png
+    alt: ""
+gallery3:
+  - url: /assets/images/logbook/20220405/old_dataset_time_distributed.png
+    image_path: /assets/images/logbook/20220405/old_dataset_time_distributed.png
+    alt: ""
+gallery4:
+  - url: /assets/images/logbook/20220405/opencv_dataset.png
+    image_path: /assets/images/logbook/20220405/opencv_dataset.png
+    alt: ""
+gallery5:
+  - url: /assets/images/logbook/20220405/opencv_dataset_time_distributed.png
+    image_path: /assets/images/logbook/20220405/opencv_dataset_time_distributed.png
+    alt: ""
 
 ---
 
@@ -343,3 +366,21 @@ pinned: false
 </tr>
 </tbody>
 </table>
+
+## Comparing dataset cases distribution for V and W
+
+#### Old dataset 
+{% include gallery id="gallery2" caption="" %}
+#### Old dataset time distributed
+{% include gallery id="gallery3" caption="" %}
+
+#### Explicit dataset 
+{% include gallery id="gallery" caption="" %}
+#### Explicit dataset time distributed
+{% include gallery id="gallery1" caption="" %}
+
+#### OpenCV dataset 
+{% include gallery id="gallery4" caption="" %}
+#### OpenCV dataset time distributed
+{% include gallery id="gallery5" caption="" %}
+
