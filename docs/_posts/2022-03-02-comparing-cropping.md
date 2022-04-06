@@ -218,6 +218,7 @@ gallery9:
 </tbody>
 </table>
 
+Best Frankenstein model: 20211229-161232_pilotnet_model_lstm_100_albumentations_depth_3_extreme_imgs_3dcnn_no_shuffle_cp.h5
 
 ### Conclusions
 
