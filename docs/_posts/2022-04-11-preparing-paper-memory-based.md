@@ -265,6 +265,7 @@ inference time needed.
 
 * Lap seconds PID -> 71 s (56 it/s simulated) | 78 s (11 it/s simulated)
 * Lap seconds TinyPilotNet -> 83 s (14 it/s simulated)
+* Lap seconds Frankenstein -> 83 s (91 it/s simulated)
 
 
 --- 
@@ -272,6 +273,7 @@ inference time needed.
 * Lap seconds PID -> 12it/s -> 5.23 8it/s -> 5.35 \|\|  with improved it/s: 
 * Lap seconds PilotNet -> \|\|  with improved it/s: 
 * Position deviation  MAE Frankenstein with dataset with more extreme cases -> 8 it/s ->19.03 \|\| with improved it/s:
+* Position deviation  MAE Frankenstein (trained more!) with dataset with more extreme cases -> 91 it/s -> 5.0 
 
 
 
