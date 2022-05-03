@@ -18,6 +18,8 @@ pinned: false
 ---
 
 
+Experiments conduced using Montmeló circuit with different classification and regression brains.
+
 # Increasing inference time causes the brain to perform worse.
 
 As we can see on the following table, the more time the brain spends on inferencing, the lower the success ratio.
