@@ -81,4 +81,8 @@ Some strange values are illustrated on the table which but be responsible for th
 | MANY CURVES | 0.027 | 37.02  | 17.742 | 21.50 | 0.024 | 22.27 | 0.05636 | 0.93 | 70 |
 
 
+## Experiments that we would like to add
 
+* Comparison of performance changing brain iterations per second.
+* Comparison of performance changing real time factor of simulator.
+* Comparison of performance multiplying speeds.
