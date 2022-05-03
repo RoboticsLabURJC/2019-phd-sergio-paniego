@@ -71,6 +71,7 @@ As we can see on the following table, the more time the brain spends on inferenc
 
 * Why the success in Nurburging is so low (50%) for PilotNet?
 
+Some strange values are illustrated on the table which but be responsible for the lower success ratio.
 
 | CIRCUIT | mean brain iterations real time  | brain iterations frequency real time | brain iterations frequency simulated time | target brain iterations simulated time | mean inference time | frame rate | mean brain iterations simulated time | real time factor | success ratio | 
 |---|---|---|---|---|---|---|---|---|---|
