@@ -95,6 +95,10 @@ gallery19:
   - url: /assets/images/logbook/20220530/nurburgring_line_lap_seconds_filter_100.png
     image_path: /assets/images/logbook/20220530/nurburgring_line_lap_seconds_filter_100.png
     alt: ""
+gallery20:
+  - url: /assets/images/logbook/20220530/circuits_success_100.png
+    image_path: /assets/images/logbook/20220530/circuits_success_100.png
+    alt: ""
 
 ---
 
@@ -165,7 +169,8 @@ gallery19:
 ## Lap seconds in nurburgring for success ratio > 100
 {% include gallery id="gallery19" caption="" %}
 
-
+# Number of circuits in which model has success ratio of 100
+{% include gallery id="gallery20" caption="" %}
 
 
 
