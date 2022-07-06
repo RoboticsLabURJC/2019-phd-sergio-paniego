@@ -75,7 +75,7 @@ gallery13:
     alt: ""
 gallery14:
   - url: /assets/images/logbook/20220705/simple/simple_lap_seconds.png
-    image_path: /assets/images/logbook/20220705/simple/simple_frame_rate.png
+    image_path: /assets/images/logbook/20220705/simple/simple_lap_seconds.png
     alt: ""
 
 gallery15:
@@ -143,6 +143,19 @@ gallery29:
     alt: ""
 
 ---
+
+Some findings:
+
+* The performance gets worse when increasing the time per iteration.
+* Circuit shape is key for performance. A more complicated circuit results in worse performance (see success ratio).
+* When looking at success ratio, we can see that there is a point where the brains suddenly stop working.
+* When looking at completed percentage, this change is more progressive. 
+
+Results are shown divided for each circuit.
+
+* Blue: Montmeló.
+* Green: Montreal.
+* Red: Simple circuit.
 
 ## Success ratio for each circuit
 {% include gallery id="gallery" caption="" %}
