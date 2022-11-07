@@ -9,8 +9,8 @@ sidebar:
 categories:
 - Behavior Metrics
 tags:
-- Experiments
-- Analysis
+- CARLA
+- Maps
 
 author: Sergio Paniego
 pinned: false
@@ -49,8 +49,7 @@ gallery7:
     alt: ""
 
 ---
-  
-# Carla simulator maps
+
 ### Town01
 {% include gallery id="gallery" caption="" %}
 ### Town02
